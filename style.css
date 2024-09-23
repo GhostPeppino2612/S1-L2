@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "quicksand";
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:aliceblue;
+    padding-block: 2em;
+}
+
+header img {
+    margin-inline: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0.5em;
+}
+
+main {
+    background-color:bisque;
+    padding: 1em;
+}
+main .post {
+    text-align: center;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-inline: auto;
+    margin-block: 2em;
+}
+
+main .post table {
+    margin-inline: auto;
+    margin-block: 2em;
+}
+
+main .post table, main .post table tr, main .post table th, main .post table td {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.2em;
+}
+main .post iframe {
+    margin: 1em;
+    border-radius: 10px;
+}
+
+main .subscription {
+    margin-block: 3em;
+    text-align: center;
+}
+
+main .subscription, main .correlati {
+    max-width: 80%;
+    margin-inline: auto;
+}
+main .subscription form {
+    text-align: center;
+}
+main .correlati {
+    font-size: 0;
+}
+
+main .correlati .corr-art {
+    text-align: center;
+    display: inline-block;
+    width: 33.33%;
+    font-size: initial; /* Ripristina la dimensione del font all'interno dei div */
+}
+
+footer {
+    background-color:azure;
+    margin: 0;
+    padding: 1em;
+}
